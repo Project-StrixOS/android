@@ -4,10 +4,10 @@
     <project path="device/xiaomi/sm8550-common" name="Project-StrixOS/android_device_xiaomi_sm8550-common" />
     <project path="device/xiaomi/fuxi" name="Project-StrixOS/android_device_xiaomi_fuxi" />
 
-    <project path="kernel/xiaomi/sm8550" name="LineageOS/android_kernel_xiaomi_sm8550" />
-    <project path="kernel/xiaomi/sm8550-modules" name="LineageOS/android_kernel_xiaomi_sm8550-modules" />
-    <project path="kernel/xiaomi/sm8550-devicetrees" name="LineageOS/android_kernel_xiaomi_sm8550-devicetrees" />
+    <project path="kernel/xiaomi/sm8550" name="LineageOS/android_kernel_xiaomi_sm8550" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm8550-modules" name="LineageOS/android_kernel_xiaomi_sm8550-modules" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm8550-devicetrees" name="LineageOS/android_kernel_xiaomi_sm8550-devicetrees" revision="lineage-23.0" />
 
-    <project path="vendor/xiaomi/sm8550-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8550-common" />
-    <project path="vendor/xiaomi/fuxi" name="TheMuppets/proprietary_vendor_xiaomi_fuxi" />
+    <project path="vendor/xiaomi/sm8550-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8550-common" revision="lineage-23.0" />
+    <project path="vendor/xiaomi/fuxi" name="TheMuppets/proprietary_vendor_xiaomi_fuxi" revision="lineage-23.0" />
 </manifest>
