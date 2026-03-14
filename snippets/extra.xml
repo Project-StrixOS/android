@@ -2,4 +2,5 @@
 <manifest>
     <!-- <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" revision="v4a"/> -->
     <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" revision="main"/>
+    <project path="vendor/strix" name="Project-StrixOS/android_vendor_strix" />
 </manifest>
