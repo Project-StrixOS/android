@@ -42,10 +42,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="Project-StrixOS/android_build_soong" groups="pdk,tradefed,sysui-studio" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="Project-StrixOS/android_build_soong" groups="pdk,tradefed,sysui-studio" />
   <project path="frameworks/base" name="Project-StrixOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="hardware/google/pixel" name="Project-StrixOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="Project-StrixOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
