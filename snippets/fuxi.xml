@@ -10,4 +10,6 @@
 
     <project path="vendor/xiaomi/sm8550-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8550-common" />
     <project path="vendor/xiaomi/fuxi" name="TheMuppets/proprietary_vendor_xiaomi_fuxi" />
+
+    <project path="packages/apps/MiuiSecurityCenter" name="WeiguangTWK/android_platform_packages_apps_MiuiSecurityCenter" />
 </manifest>
