@@ -10,7 +10,6 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_system_update_engine" />
   <remove-project name="LineageOS/android" />
-  <remove-project name="LineageOS/android_device_lineage_atv" />
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
@@ -44,7 +43,6 @@
   <project path="packages/apps/Settings" name="Project-StrixOS/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
   <project path="system/update_engine" name="Project-StrixOS/android_system_update_engine" groups="pdk" />
   <project path="android" name="Project-StrixOS/android" />
-  <project path="device/lineage/atv" name="Project-StrixOS/android_device_lineage_atv" />
   <project path="device/lineage/sepolicy" name="Project-StrixOS/android_device_lineage_sepolicy" />
   <project path="hardware/lineage/interfaces" name="Project-StrixOS/android_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="Project-StrixOS/android_lineage-sdk" />
