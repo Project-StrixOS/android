@@ -21,7 +21,6 @@
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Profiles" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <remove-project name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
   <remove-project name="LineageOS/android_packages_apps_Twelve" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
@@ -56,7 +55,6 @@
   <project path="packages/apps/LineageParts" name="Project-StrixOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/Profiles" name="Project-StrixOS/android_packages_apps_Profiles" />
   <project path="packages/apps/SetupWizard" name="Project-StrixOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SimpleSettingsConfig" name="Project-StrixOS/android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="Project-StrixOS/android_packages_apps_Twelve" />
   <project path="packages/apps/Updater" name="Project-StrixOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="Project-StrixOS/android_packages_overlays_Lineage" />
