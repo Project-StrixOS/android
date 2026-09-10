@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
   <remove-project name="LineageOS/android_frameworks_base" />
@@ -8,19 +9,16 @@
   <remove-project name="LineageOS/android_hardware_google_pixel-sepolicy" />
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
-  <remove-project name="LineageOS/android_packages_apps_Aperture" />
-  <remove-project name="LineageOS/android_packages_apps_EuiccPolicy" />
-  <remove-project name="LineageOS/android_packages_apps_Glimpse" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_vendor_lineage" />
 
 
+  <project path="android" name="Project-StrixOS/android" />
   <project path="build/make" name="Project-StrixOS/android_build" groups="pdk,sysui-studio" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -35,13 +33,9 @@
   <project path="hardware/google/pixel-sepolicy" name="Project-StrixOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
   <project path="packages/apps/Launcher3" name="Project-StrixOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/Settings" name="Project-StrixOS/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
-  <project path="android" name="Project-StrixOS/android" />
   <project path="device/lineage/sepolicy" name="Project-StrixOS/android_device_lineage_sepolicy" />
   <project path="hardware/lineage/interfaces" name="Project-StrixOS/android_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="Project-StrixOS/android_lineage-sdk" />
-  <project path="packages/apps/Aperture" name="Project-StrixOS/android_packages_apps_Aperture" />
-  <project path="packages/apps/EuiccPolicy" name="Project-StrixOS/android_packages_apps_EuiccPolicy" />
-  <project path="packages/apps/Glimpse" name="Project-StrixOS/android_packages_apps_Glimpse" />
   <project path="packages/apps/LineageParts" name="Project-StrixOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/SetupWizard" name="Project-StrixOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Updater" name="Project-StrixOS/android_packages_apps_Updater" />
