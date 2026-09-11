@@ -1103,4 +1103,7 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/extra.xml" />
+  <include name="snippets/strix.xml" />
+  <include name="snippets/fuxi.xml" />
 </manifest>
