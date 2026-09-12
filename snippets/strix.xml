@@ -18,7 +18,7 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
 
 
-  <project path="android" name="Project-StrixOS/android" />
+  <project path="android" name="Project-StrixOS/android" revision="lineage-24.0-fuxi" />
   <project path="build/make" name="Project-StrixOS/android_build" groups="pdk,sysui-studio" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
